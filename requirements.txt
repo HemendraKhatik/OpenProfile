@@ -1,0 +1,4 @@
+os
+flask
+sqlalchemy
+gunicorn
