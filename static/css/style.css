@@ -1,0 +1,63 @@
+body{
+background-color: #e5e7ea;
+}
+.height{
+height: 100vh;
+}
+.welcomeMessage{
+font-family: 'Open Sans', sans-serif;
+font-size: 55px;
+color: black;
+}
+.space{
+padding-top:100px;
+}
+.input-f{
+width: 100%;
+padding:2px;
+font-size: 15px;
+border-radius: 8px;
+border:none;
+}
+.nav-h{
+height: 10vh;
+background-color:#000000;
+color:white;
+}
+.active{
+display: none;
+}
+@media(max-width:845px){
+.active{
+display: block;
+}
+.nav-h{
+height: auto;
+background-color:#000000;
+color:white;
+}
+.dactive{
+display: none;
+}
+.tgl{
+display: block;
+}
+}
+.btn-bg{
+background-color:#000000;
+color:white;
+}
+.innerNav{
+width:100%;
+height: 8vh;
+border-bottom: 1px solid black;
+font-family: Corbel;
+color:#8d979b;
+font-size: 18px;
+word-spacing:15px;
+}
+.box{
+height: 100px;
+background-color:#000000;
+color: white;
+}

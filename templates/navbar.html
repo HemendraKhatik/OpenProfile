@@ -1,0 +1,45 @@
+{% block navbar %}
+	<!-- navBar -->
+	<div class="container-fluid">
+		<div class="row p-3 nav-h">
+			<div class="col-md-2">
+				<h3>OpenProfile</h3>
+			</div>
+			<div class="col-md-10">
+				<div class="row">
+					<div class="col-md-8">
+						<form>
+							<input class="form-control" type="text" name="search">
+						</form>
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-5"> settings FAQs</div>
+							<div class="col-md-7">
+								<div class="row">
+									<div class="col-md-2">
+										<img class="rounded-circle" src="man.jpg" width="40px" height="40px">
+									</div>
+									<div class="col-md-10 pl-4">
+										  <div class="dropdown mr-1">
+											<button type="button" class="btn btn-bg dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+											Hemendra
+											</button>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+												<a class="dropdown-item" href="#">Create post</a>
+												<a class="dropdown-item" href="#">Help</a>
+												<a class="dropdown-item" href="#">settings</a>
+												<hr>
+												<a class="dropdown-item" href="#">logout</a>
+											</div>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock%}	

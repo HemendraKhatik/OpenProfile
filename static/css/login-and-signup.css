@@ -1,0 +1,58 @@
+*{
+padding:0px;
+margin: 0px;
+}
+.height{
+height:100vh;      ;
+}
+.black{
+background-color: black;
+}
+.box{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+width:400px;
+padding:40px;
+color: white;
+background-color: rgba(15,15,18,2);
+box-shadow: 0 15px 25px rgba(0,0,0,.5);
+border-radius: 10px;
+}
+.box h2{
+margin:0 0 30px;
+padding:0;
+text-align: center;
+}
+.box .inputBox{
+position:relative;
+}
+.box .inputBox input{
+width:100%;
+padding:10px 0;
+margin-bottom: 30px;
+font-size: 16px;
+letter-spacing: 1px;
+color: #fff;
+outline: none;
+background-color: transparent;
+border:none;
+border-bottom: 1px solid black;
+}
+.box .inputBox label{
+position: absolute;
+top:0;
+left:0;
+padding:10px 0;
+letter-spacing: 1px;
+font-size: 16px;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+top:-18px;
+left:0;
+color:#03a9f4;
+font-size: 12px;
+}

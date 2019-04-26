@@ -1,0 +1,58 @@
+{% extends "navbar.html" %}
+
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+<title>innovation</title>
+<style>
+/*.sideBar{
+	height: 90vh;
+	width: 20%;
+	background-color: #eaedf2;
+}*/
+body{
+	background-color: #e5e7ea;
+}
+.nav-h{
+	height: 10vh;
+	background-color:#5582c6;
+}
+.btn-bg{
+	background-color:#5582c6;
+}
+.innerNav{
+	width:100%;
+	height: 8vh;
+	border-bottom: 1px solid black;
+	font-family: Corbel;
+	color:#8d979b;
+	font-size: 18px;
+	word-spacing:15px;
+}
+.box{
+	height: 100px;
+	background-color:#5582c6;
+}
+</style>
+</head>
+<body>
+{% block navbar %}
+{% endblock%}
+
+{% block mainBody %}
+{% endblock%}
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<title>innovation</title>
+</head>
+<body>
+	<!-- navBar -->
+	<div class="container-fluid">
+		<div class="row pt-3 nav-h">
+			<div class="col-md-2">
+				<h4>OpenProfile</h4>
+			</div>
+			<div class="col-md-10 pl-4">
+				<div class="row">
+					<div class="col-md-4">
+						<form>
+							<input class="input-f" type="text" name="search">
+						</form>
+					</div>
+					<div class="col-md-8">
+						<div class="row">
+							<div class="col-md-4 pt-2"><h6>Explore</h6></div>
+							<div class="col-md-8">
+								<div class="row float-right">
+									<div class="col-md-2">
+										<img class="rounded-circle" src="{{ url_for('static', filename='images/man.jpg') }}" width="40px" height="40px">
+									</div>
+									<div class="col-md-10 pl-4">
+										  <div class="dropdown mr-1">
+											<button type="button" class="btn btn-bg dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+											Hemendra
+											</button>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+												<a class="dropdown-item" href="{{ url_for('post') }}">Create post</a>
+												<a class="dropdown-item" href="#">Help</a>
+												<a class="dropdown-item" href="#">settings</a>
+												<hr>
+												<a class="dropdown-item" href="#">logout</a>
+											</div>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- profile -->
+	<div class="container">
+			<div class="row">
+				<div class="container pt-4 pb-4">
+					<center>
+						<img class="rounded-circle" src="{{ url_for('static', filename='images/man.jpg') }}" width="80px" height="80px">
+						<strong><h4 class="pt-2" style="font-family:Fira Sans;">Hemendra Khatik</h4></strong>
+						<strong>
+							<p class="text-secondary">ProjectManager @innovation</p>
+						</strong>
+						<h5>Huge fan of HTML, CSS and Javascript. Web design and open source lover.</h5>
+					</center>
+				</div>
+		    </div>
+		<!-- inner navbar -->
+		<div class="innerNav pt-2">
+			<center>
+				<strong><p>Home Contact Story FAQs</p></strong>
+			</center>
+		</div>
+		<!-- containers -->
+		<div class="container">
+			<div class="row p-4">
+				<div class="col">
+					<div class="card box border-primary mb-3" style="max-width: 18rem;">
+					  <div class="card-body">
+					    <center><h5 class="p-4">Projects</h5></center>
+					  </div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card box border-primary mb-3" style="max-width: 18rem;">
+					  <div class="card-body">
+					    <center><h5 class="p-4">Current Project</h5></center>
+					  </div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card box border-primary mb-3" style="max-width: 18rem;">
+					  <div class="card-body">
+					    <center><h5 class="p-4">Skills</h5></center>
+					  </div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card box border-primary mb-3" style="max-width: 18rem;">
+					  <div class="card-body">
+					    <center><h5 class="p-4">Achivements</h5></center>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- conatiners end -->
+		<hr>
+		<h2>Blog Posts</h2>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
