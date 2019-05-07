@@ -41,7 +41,7 @@ def vlogin():
 	for q in query:
 		if q.email==email and q.password==password:
 			return redirect(url_for('home'))
-	return render_template('home.html')		
+	return redirect(url_for('login'))		
 
 @app.route("/signup")
 def signup():
