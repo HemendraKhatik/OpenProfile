@@ -1,5 +1,7 @@
 # Open Profile
 
+![Home page](static/images/home_page.png)
+
 ## About Project:
 This is a blogging platform where users can create a professional blogging profile.
 
