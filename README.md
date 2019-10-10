@@ -13,8 +13,8 @@ This is a blogging platform where users can create a professional blogging profi
 * JQuery
 * HTML/CSS
 
-## Flack Live
-### [Click here]( https://flack-web-app.herokuapp.com/) 
+## OpenProfile Live
+### [Click here](https://openprofile.herokuapp.com) 
 
 ## Run this project on your local machine
 
