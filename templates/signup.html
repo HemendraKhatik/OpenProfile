@@ -11,7 +11,7 @@
       <div class="col-md-8">
         <h2 class="p-4">OpenProfile</h2>
         <div class="text-center">
-          <img class="rounded-circle" src="{{ url_for('static', filename='images/man.jpg') }}" width="60%">
+          <img class="rounded-circle" alt="" src="{{ url_for('static', filename='images/man.jpg') }}" width="60%">
         </div>
       </div>
       <div class="col-md-4">
@@ -19,26 +19,26 @@
           <h4 class="mb-4 text-center">Create an account</h4>
             <form action="{{ url_for('register') }}" method="POST">
                   <div class="inputBox">
-                    <input type="text" name="firstName" autocomplete="off" required="">
-                    <label for="stuff" class="fas fa-user input-icon"> First name</label>
+                    <input type="text" id="name" name="firstName" autocomplete="off" required>
+                    <label for="name" class="fas fa-user input-icon"> First name</label>
                   </div>
                   <div class="inputBox">
-                    <input type="text" name="lastName" autocomplete="off" required="">
-                    <label for="stuff" class="fas fa-user input-icon"> Last name</label>
+                    <input type="text" id="lastname" name="lastName" autocomplete="off" required>
+                    <label for="lastname" class="fas fa-user input-icon"> Last name</label>
                   </div>
                   <div class="inputBox">
-                    <input type="text" name="email" autocomplete="off" required="">
-                    <label for="stuff" class="fas fa-envelope input-icon"> Email</label>
+                    <input type="text" id="email" name="email" autocomplete="off" required="">
+                    <label for="email" class="fas fa-envelope input-icon"> Email</label>
                   </div>
                   <div class="inputBox">
-                    <input type="password" name="password" autocomplete="off" required="">
-                    <label for="stuff" class="fas fa-lock input-icon"> password</label>
+                    <input type="password" id="password" name="password" autocomplete="off" required>
+                    <label for="password" class="fas fa-lock input-icon"> Password</label>
                   </div>
                   <div class="inputBox">
-                    <input type="password" name="c_password" autocomplete="off" required="">
-                    <label for="stuff" class="fas fa-lock input-icon">confirm password</label>
+                    <input type="password" id="c-password" name="c_password" autocomplete="off" required>
+                    <label for="c-password" class="fas fa-lock input-icon">Confirm Password</label>
                   </div>
-                  <input class="btn btn-success" type="submit" name="" value="Register">
+                  <button class="btn btn-success" type="submit">Register</button>
                   <p class="mt-4">Already have an account<a href="{{ url_for('login') }}"> Login here.</a></p>
                 </form>
               </div>
